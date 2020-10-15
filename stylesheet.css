@@ -30,11 +30,15 @@
 }
 
 .nav-item {
-    padding: 0 1.5%;
+    padding: 0.5% 1.5%;
 }
 
+/* .navbar-collapse {
+    padding: 2%;
+} */
+
 .test {
-    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("./pic/tes4.jpg");
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("./pic/tes4b.jpg");
     /* background-image */
     height: 100%;
     /* background-position: center;
