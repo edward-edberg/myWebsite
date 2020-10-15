@@ -239,10 +239,11 @@ a:link {
 }
 
 a:visited {
-    color: #ecc3b6;
+    color: #928C7A;
     background-color: transparent;
     text-decoration: none;
 }
+/* E3BEC6  ecc3b6 E3DBBE 757062 #928C7A*/
 
 a:hover {
     color: white;
