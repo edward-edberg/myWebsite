@@ -65,6 +65,13 @@
     opacity: 0.1;
 } */
 
+@media only screen and (max-width: 600px) {
+    div.main {
+        margin: 0 0 !important;
+      /* background-color: lightblue; */
+    }
+  }
+
 div.main {
     /* z-index: 5; */
     position: relative;
