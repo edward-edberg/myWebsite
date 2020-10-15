@@ -9,6 +9,10 @@
 
 // $(".contact").hide();
 
+$("#menu").click(function(){
+    $("#navbarTogglerDemo03").toggleClass("navbar-right");
+});
+
 $("#home").on("click", function(){
 
     var win = window.open('index.html', '_self');

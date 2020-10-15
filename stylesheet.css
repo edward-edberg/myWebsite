@@ -90,7 +90,7 @@
 
 @media  (max-width: 1920px) {
     div.column {
-        max-width: 98% !important;
+        max-width: 99% !important;
         margin-left: 0.75%  !important;
     }
 }
