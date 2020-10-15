@@ -20,59 +20,75 @@
 
     <div class="main">
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #BEE3DB;">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
             <a class="navbar-brand" href="#">Edward Edberg</a>
-          
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                  <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> -->
-                  <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
-                  <button id="home" type="button" class="btn btn-dark home" href="#">Home</button>
-                </li>
-                <li class="nav-item">
-                  <!-- <a class="nav-link" href="#">Link</a> -->
-                  <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
-                  <button id="publications" type="button" class="btn btn-outline-dark" href="pubs.html">Publications</button>
-                </li>
-                <li class="nav-item">
-                  <!-- <a class="nav-link disabled" href="#">Disabled</a> -->
-                  <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
-                  <button type="button" class="btn btn-outline-dark">Projects</button>
-                </li>
-              </ul>
-            </div>
-          </nav>
 
-          <div class="container"></div>
-          <div class="row column justify-content-md-center">
-              <div class="left col-sm-12 col-md-auto" style="">
-                  <img class="face" src="./pic/edod_web_2.jpg" alt="Italian Trulli">
-                  <div class="job">
-                      <p>Data Scientist, Asuransi Astra</p>
-                      <p><i class="fa fa-fw fa-map-marker"></i> Jakarta, Indonesia</p>
-                  </div>
-                  <div class="contact">
-  
-                      <p><i class="fa fa-fw fa-envelope"></i> edward.edberg.halim@gmail.com</p>
-                      <p><i class="fa fa-fw fa-github"></i> <a class="textlink"
-                              href="https://github.com/edward-edberg">Github</a></p>
-                      <p><i class="fa fa-fw fa-file"></i> CV</p>
-                      <p><img class="ig" src="./pic/instagram.png">Instagram</p>
-                  </div>
-              </div>
-  
-              <div class="right col-sm-12 col-md-9" style="">
+            <div class="collapse navbar-collapse navbar-right" id="navbarTogglerDemo03">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> -->
+                        <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+                        <button id="home" type="button" class="btn btn-dark home" href="#"><i class="fa fw fa-home"></i></button>
+                    </li>
+                    <li class="nav-item">
+                        <!-- <a class="nav-link" href="#">Link</a> -->
+                        <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+                        <button id="publications" type="button" class="btn btn-outline-dark"
+                            href="pubs.html">Publications</button>
+                    </li>
+                    <li class="nav-item">
+                        <!-- <a class="nav-link disabled" href="#">Disabled</a> -->
+                        <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+                        <button type="button" class="btn btn-outline-dark disabled">Projects</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container"></div>
+        <div class="row column justify-content-md-center">
+            <div class="left col-sm-12 col-md-auto" style="">
+                <img class="face" src="./pic/edod_web_2.jpg" alt="Italian Trulli">
+                <div class="job">
+                    <p>Data Scientist, Asuransi Astra</p>
+                    <p><i class="fa fa-fw fa-map-marker"></i> Jakarta, Indonesia</p>
+                </div>
+                <div class="contact">
+
+                    <p><i class="fa fa-fw fa-envelope"></i> edward.edberg.halim@gmail.com</p>
+                    <p><i class="fa fa-fw fa-github"></i> <a class="textlink"
+                            href="https://github.com/edward-edberg">Github</a></p>
+                    <p><i class="fa fa-fw fa-file"></i> CV</p>
+                    <p><i class="fa fa-fw fa-instagram"></i> <a class="textlink"
+                        href="https://www.instagram.com/edwardedberg/">Instagram</a></p>
+
+                    <!-- <img class="ig" src="./pic/instagram.png"> -->
+                </div>
+            </div>
+
+            <div class="right col-sm-12 col-md-9" style="">
                 <!-- #right content in there -->
                 <h3 class="bold">Research</h3>
                 <p>My research interests are:</p>
                 <li>Natural Language Processing</li>
                 <li>Computer Vision</li>
                 <li>Machine Learning</li>
-              </div>
-          </div>
+            </div>
+        </div>
+            <!-- Footer -->
+    <footer class="page-footer font-small blue">
+
+        <!-- Copyright -->
+        <hr class="hr">
+        <div class="footer-copyright text-center py-3">© 2020 Edward Edberg
+            <!-- <a href="https://mdbootstrap.com/"> MDBootstrap.com</a> -->
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
     </div>
 
     </div>
@@ -85,10 +101,15 @@
 
 
 </body>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+</script>
 <script type="text/javascript" src="main.js"></script>
 
 </html>
-

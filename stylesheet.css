@@ -1,4 +1,3 @@
-
 /* -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif */
 /* html, body {
     
@@ -11,12 +10,17 @@
     font-weight: 700;
 }
 
+.navbar-right {
+    position: fixed;
+    right: 17.5%;
+}
+
 .navbar {
-    min-height: 90px;
-    padding: 0 2% 0 3.5% !important;
-    margin: 0;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
+    min-height: 80px;
+    padding: 0 0 0 1.75% !important;
+    /* margin: 0; */
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 .navbar-brand {
@@ -25,9 +29,10 @@
     font-weight: 700;
 }
 
-.collapse {
-    padding-left: 2.6%;
-}
+/* .collapse {
+    padding-left: 2.7%;
+   
+} */
 
 .nav-item {
     padding: 0.5% 1.5%;
@@ -38,7 +43,7 @@
 } */
 
 .test {
-    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("./pic/tes4b.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("./pic/tes4b.jpg");
     /* background-image */
     height: 100%;
     /* background-position: center;
@@ -52,6 +57,11 @@
     /* margin-top: -5%; */
     max-width: 240px;
     max-height: 300px;
+}
+
+.contact p {
+    /* line-height: 0; */
+    /* margin: 0 0; */
 }
 
 /* div.back {
@@ -74,35 +84,50 @@
 @media only screen and (max-width: 600px) {
     div.main {
         margin: 0 0 !important;
-      /* background-color: lightblue; */
+        /* background-color: lightblue; */
     }
-  }
+}
+
+@media  (max-width: 1920px) {
+    div.column {
+        max-width: 98% !important;
+        margin-left: 0.75%  !important;
+    }
+}
+
+/* @media only screen and (max-width: 5000px) {
+    div.column {
+        max-width: 98% !important;
+        margin-left: 0  !important;
+    }
+} */
 
 div.main {
     /* z-index: 5; */
     position: relative;
     font-family: Helvetica;
     /* margin-top: 10%; */
-    margin: 9% 15% 0 15%;
+    margin: 7% 15% 0 15%;
     /* margin-bottom: 2%; */
     padding-bottom: 2%;
     /* padding: 2%; */
     max-width: 100%;
     /* max-height: 100%; */
-    background-color: #FAF9F9; 
+    background-color: #FAF9F9;
     /* overflow:hidden; */
     /* border-radius: 50px; */
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 
-    
+
 
     /* width: 250px; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
     /* text-align: center; */
 }
+
 /* ffd6ba bee3db f2e9e4  eaeaea FFF1E6 ffa69e*/
 
 div.top {
@@ -120,6 +145,7 @@ div.column {
     /* width: 100%; */
     margin-left: 2%;
 }
+
 /* div.left {
     margin-top: 1%;
     padding: 1% 2.5%;
@@ -144,18 +170,19 @@ div.right {
 
 div.left_2 {
     padding-left: 1%;
- 
-    width: 25%; 
-    float:left
+
+    width: 25%;
+    float: left
 }
+
 /* div.right {
 
 } */
 
 div.right_2 {
-    width: 71%; 
-    float:right;
-    
+    width: 71%;
+    float: right;
+
 }
 
 .name {
@@ -199,32 +226,36 @@ div.right_2 {
 }
 
 .title {
-    font-family:  Helvetica;
+    font-family: Helvetica;
     font-size: 1rem;
     font-weight: 900;
     /* line-height: auto; */
 }
 
 a:link {
-    color: green;
+    color: black;
     background-color: transparent;
     text-decoration: none;
-  }
-  a:visited {
-    color: pink;
+}
+
+a:visited {
+    color: #ecc3b6;
     background-color: transparent;
     text-decoration: none;
-  }
-  a:hover {
-    color: red;
+}
+
+a:hover {
+    color: white;
     background-color: transparent;
     text-decoration: underline;
-  }
-  a:active {
+}
+
+a:active {
     color: yellow;
     background-color: transparent;
     text-decoration: underline;
-  }
+}
+
 /* 
 .long {
     line-height: 1.5;
@@ -260,6 +291,30 @@ a:link {
     border-color: #8064A2 !important;
 } */
 
-div.container-fluid{position:relative;}
-div.container-fluid img{position:absolute;top:0;left:0;z-index:1}
-div.container-fluid div.jumbotron{position:relative;z-index:5;color:white;}
+div.container-fluid {
+    position: relative;
+}
+
+div.container-fluid img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1
+}
+
+div.container-fluid div.jumbotron {
+    position: relative;
+    z-index: 5;
+    color: white;
+}
+
+.hr {
+    margin: 0 0 0 0;
+}
+
+footer {
+    margin: 0 0 -2.5% 0;
+    /* background-color: #E9F6F4; */
+    font-size: 0.75rem;
+    color: grey;
+}
