@@ -84,7 +84,12 @@
 @media only screen and (max-width: 600px) {
     div.main {
         margin: 0 0 !important;
+        
         /* background-color: lightblue; */
+    }
+
+    .left {
+        text-align: center;
     }
 }
 
@@ -156,6 +161,7 @@ div.column {
 div.left {
     /* margin-top: 5%; */
     padding: 2% 0 0 0;
+    /* text-align: center; */
 }
 
 
