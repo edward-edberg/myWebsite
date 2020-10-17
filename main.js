@@ -8,6 +8,8 @@
 //     alert("GO");
 
 // $(".contact").hide();
+$("#year").innerHTML = new Date().getFullYear();
+// alert(new Date().getFullYear());
 
 $("#menu").click(function(){
     $("#navbarTogglerDemo03").toggleClass("navbar-right");
