@@ -66,7 +66,7 @@
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     div.main {
         margin: 0 0 !important;
         
@@ -75,6 +75,10 @@
 
     .left {
         text-align: center;
+    }
+
+    div.right {
+        max-width: 100% !important;
     }
 }
 
@@ -310,7 +314,7 @@ div.container-fluid div.jumbotron {
 }
 
 footer {
-    margin: 0 0 -2.5% 0;
+    margin: 0 0 -3% 0;
     /* background-color: #E9F6F4; */
     font-size: 0.75rem;
     color: grey;
